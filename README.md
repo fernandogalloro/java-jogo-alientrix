@@ -6,6 +6,8 @@ A ideia original do projeto era estudar o desenvolvimento de jogos. Certo dia co
 
 Agora o projeto está aqui no Github e quem tiver interesse em dar continuidade, fique a vontade para criar seus Forks. 
 
+![Imagem do jogo](/res/geral/print-alientrix.png?raw=true "PrintScreen do jogo")
+
 # Onde faço o download para jogar?
 
 Na área Releases, cada tag tem o link do .jar do projeto. Basta baixar, extrair e executar :)
