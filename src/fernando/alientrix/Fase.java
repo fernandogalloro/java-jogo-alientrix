@@ -44,7 +44,7 @@ public class Fase extends JPanel implements ActionListener {
 		setDoubleBuffered(true);
 		addKeyListener(new TecladoAdapter());
 
-		ImageIcon referencia = new ImageIcon("res/fundo.png");
+		ImageIcon referencia = new ImageIcon(Main.class.getResource("/res/fundo.png"));
 		fundo = referencia.getImage();
 		nave = new Nave();
 
@@ -87,7 +87,7 @@ public class Fase extends JPanel implements ActionListener {
 			graficos.drawString("Inimigos: " + inimigos.size(), 5, 15);
 
 		} else {
-			ImageIcon fimJogo = new ImageIcon("res/game_over.jpg");
+			ImageIcon fimJogo = new ImageIcon(Main.class.getResource("/res/game_over.jpg"));
 
 			graficos.drawImage(fimJogo.getImage(), 0, 0, null);
 		}

@@ -15,7 +15,7 @@ public class Nave extends Movel {
 	private List<Missel> misseis;
 
 	public Nave() {
-		ImageIcon referencia = new ImageIcon("res/nave.png");
+		ImageIcon referencia = new ImageIcon(Main.class.getResource("/res/nave.png"));
 		imagem = referencia.getImage();
 		altura = imagem.getHeight(null);
 		largura = imagem.getHeight(null);

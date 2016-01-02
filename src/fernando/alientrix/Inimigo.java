@@ -18,9 +18,9 @@ public class Inimigo extends Movel {
 
 		ImageIcon referencia;
 		if (contador++ % 3 == 0) {
-			referencia = new ImageIcon("res/inimigo_2.png");
+			referencia = new ImageIcon(Main.class.getResource("/res/inimigo_2.png"));
 		} else {
-			referencia = new ImageIcon("res/inimigo_1.png");
+			referencia = new ImageIcon(Main.class.getResource("/res/inimigo_1.png"));
 		}
 
 		imagem = referencia.getImage();
