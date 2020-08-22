@@ -10,11 +10,7 @@ Agora o projeto está aqui no Github e quem tiver interesse em dar continuidade,
 
 # Onde faço o download para jogar?
 
-Na área Releases, cada tag tem o link do .jar do projeto. Basta baixar, extrair e executar :)
-
-# Planos de um MMORPG
-
-Tenho planos de criar um MMORPG. Quem tiver interesse em participar, pode entrar em contato comigo no fernandogalloro@gmail.com ou fernandort@live.com
+Na área Releases, cada tag tem o link do .jar do projeto. Basta baixar, extrair e executar :
 
 
 
